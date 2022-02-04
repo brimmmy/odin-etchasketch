@@ -1,0 +1,20 @@
+#grid-container {
+    display: grid;
+    background-color: blueviolet;
+    grid-template-columns: auto auto auto auto;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridbox {
+    background-color: white; 
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: black;
+    font-weight: bolder;
+}
+
